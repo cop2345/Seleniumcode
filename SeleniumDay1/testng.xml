@@ -3,6 +3,7 @@
   <test>
   <classes>
       <class name="com.test.NewTest3Test"/>
+      <class name="com.test.NewTest4"/>
     </classes>
     </test>
  <!--  <parameter name="node" value="http://10.116.17.121:8706/wd/hub"/> //need to enter url of registered nodes
