@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <suite name="Suite" parallel="tests">
-  <test name="Test1">
-  <parameter name="node" value="http://10.116.17.121:8706/wd/hub"/> <!-- //need to enter url of registered nodes -->
+  <test>
   <classes>
-      <class name="com.test.NewTest7"/> <!-- //enter the the name of the test or class or method which can be execute in registered nodes -->
+      <class name="com.test.NewTest3Test"/>
     </classes>
-  </test> <!-- Test -->
+    </test>
+ <!--  <parameter name="node" value="http://10.116.17.121:8706/wd/hub"/> //need to enter url of registered nodes
+  <classes>
+      <class name="com.test.NewTest7"/> //enter the the name of the test or class or method which can be execute in registered nodes
+    </classes>
+  </test> Test
   <test name="Test1">
   <parameter name="node" value="http://10.116.17.135:7788/wd/hub" />
   <classes>
       <class name="com.test.NewTest7"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test
   <test name="Test1">
   <parameter name="node" value="http://10.116.17.114:1234/wd/hub" />
   <classes>
       <class name="com.test.NewTest7"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test
   <test name="Test1">
   <parameter name="node" value="http://10.116.17.110:4591/wd/hub" />
   <classes>
       <class name="com.test.NewTest7"/>
-    </classes>
-  </test> <!-- Test -->
+    </classes> -->
+ <!--  </test> Test -->
 </suite> <!-- Suite -->
